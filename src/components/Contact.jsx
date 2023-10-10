@@ -30,12 +30,12 @@ const Contact = () => {
     setLoading(true)
     emailjs.send(
       "service_5q3xn4b",
-      "template_h2m0az9",
+      "template_047zy4s",
       {
         from_name: form.name,
         to_name:"Pranab",
         from_email:form.email,
-        to_email:"pranabgubhaju4@gmail.com",
+        to_email:"pranabgubhaju@gmail.com",
         message:form.message,
       },"67ey5b8sVpRefq_T9")
       .then(()=>{
